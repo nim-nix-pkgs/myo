@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-myo-master.flake = false;
+  inputs.src-myo-master.ref   = "refs/heads/master";
   inputs.src-myo-master.owner = "nimious";
-  inputs.src-myo-master.ref   = "master";
   inputs.src-myo-master.repo  = "myo.git";
   inputs.src-myo-master.type  = "github";
   
